@@ -1,0 +1,102 @@
+/* Style global */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7faff;
+    background-image: url('https://www.duraabl.com/wp-content/uploads/2022/10/30-mythes-et-faits-sur-le-rechauffement-planetaire-que-tout-le-monde-ignore..jpg'); /* Remplacez par le chemin de votre image */
+    background-size:contain; /* Cela permet à l'image de couvrir toute la page */
+    background-position: center center; /* Cela centre l'image */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+fieldset {
+    border: none;
+    margin: 10px 0;
+    padding: 0;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="number"]:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+.btn {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+.btn:hover {
+    background-color: #2980b9;
+}
+
+.result {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.result h2 {
+    color: #27ae60;
+}
+
+.result span {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    input[type="number"] {
+        padding: 6px;
+    }
+
+    .btn {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+}
